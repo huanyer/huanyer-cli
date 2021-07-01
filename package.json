@@ -1,0 +1,27 @@
+{
+  "name": "@huanyer/huanyer-cli",
+  "version": "0.0.1",
+  "description": "huanyer-cli",
+  "bin": {
+    "huanyer-cli": "./bin/script.js"
+  },
+  "files": ["bin/", "src/", "templates/"],
+  "scripts": {},
+  "keywords": ["script"],
+  "author": {
+    "name": "huanyer",
+    "email": "tdcqjhh@163.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "arg": "^5.0.0",
+    "chalk": "^4.1.1",
+    "esm": "^3.2.25",
+    "figlet": "^1.5.0",
+    "inquirer": "^8.1.1",
+    "listr": "^0.14.3",
+    "lodash": "^4.17.21",
+    "ncp": "^2.0.0",
+    "pkg-install": "^1.0.0"
+  }
+}
